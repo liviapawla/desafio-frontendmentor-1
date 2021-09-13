@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+
+body{
+    background-color: #e0e8ff;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+main .container-principal{
+    background-color: white;
+    width:400px;
+    height:590px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px #1f2f564b;
+}
+
+.container-principal picture {
+
+}
+
+.container-principal picture img {
+    width: 100%;
+    border-radius:1rem 1rem 0 0 ;
+    
+}
+
+.container-principal .englobador-de-box {
+    padding: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-principal .englobador-de-box h1 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    
+    
+}
+.container-principal .englobador-de-box p {
+    text-align: center;
+   color: hsl(224, 23%, 55%);
+   font-weight: 500;
+   padding: 10px 0;
+}
+
+.container-principal .englobador-de-box .plano-anual {
+    background-color:#f5f7ff ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 15px 0;
+
+}
+.container-principal .englobador-de-box .plano-anual img {
+    width: 43px;
+    height:43px;
+    margin-right: -60px;
+}
+.container-principal .englobador-de-box .plano-anual .texto {
+
+}
+.container-principal .englobador-de-box .plano-anual .texto h3 {
+    font-size: 1em;
+    color: #1f2f56
+}
+.container-principal .englobador-de-box .plano-anual .texto p {
+    padding: 0;
+}
+.container-principal .englobador-de-box .plano-anual a {
+    transition: 0.4s;
+    font-weight: 600;
+}
+.container-principal .englobador-de-box .plano-anual a:hover {
+    text-decoration: none;
+    color: #3829e0;
+}
+.container-principal .englobador-de-box .btn-pagamento {
+    background-color: #3829e0;
+    padding: 3px 0;
+    border-radius: 7px;
+    margin: 15px 0 15px 0;
+    box-shadow: 0px 10px 20px 5px #00000050;
+    cursor: pointer;
+}
+.container-principal .englobador-de-box .btn-pagamento:hover {
+    background-color:#766cf1 ;
+    transition: 0.4s;
+}
+
+
+.container-principal .englobador-de-box .btn-pagamento p {
+    color: #f5f7ff;
+    font-weight: 700;
+
+}
+.container-principal .englobador-de-box .btn-cancelar {
+    background-color: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.container-principal .englobador-de-box .btn-cancelar p {
+    font-weight: 700;
+    
+}
+
+footer {
+    height: 5vh;
+}
+footer p {
+    text-align: center;
+    padding: 4px 0;
+}
+footer p a {
+    color: violet;
+
+}
+
+@media (max-width:420px) {
+    body{
+        background-image:url(/images/pattern-background-mobile.svg);
+    }
+    main .container-principal {
+        width: 320px;
+    }
+    .container-principal .englobador-de-box .plano-anual img {
+        margin: 0;
+    }
+    .container-principal .englobador-de-box {
+        padding: 10px;
+    }
+
+}
