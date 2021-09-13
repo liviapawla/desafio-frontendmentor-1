@@ -15,7 +15,7 @@
 
 body{
     background-color: #e0e8ff;
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -141,7 +141,7 @@ footer p a {
 
 @media (max-width:420px) {
     body{
-        background-image:url(/images/pattern-background-mobile.svg);
+        background-image:url(../images/pattern-background-mobile.svg);
     }
     main .container-principal {
         width: 320px;
